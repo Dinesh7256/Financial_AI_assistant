@@ -26,14 +26,13 @@ Navigate to the project directory:
 bash
 ### Copy code
 cd financial-stock-ai-assistant
-Install the required dependencies:
-bash
-### Copy code
-pip install -r requirements.txt
+
+### Copy code to Install the required dependencies:
+pip install openai pandas matplotlib streamlit yfinance
 ### Run the application:
 bash
-### Copy code
-python app.py
+### To run the file: 
+streamlit run main.py
 ## Usage
 Once the application is running, open your web browser and navigate to http://localhost:5000 to access the dashboard. Here, you can:
 
